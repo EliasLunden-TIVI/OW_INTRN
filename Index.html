@@ -1,1 +1,27 @@
-
+<!DOCTYPE html>
+    <html lang="en">
+    <!--Head, critical info! DONT TOUCH!-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Made by Nexuss</title>
+        <link rel="stylesheet" href="CSS/styling.css">
+    </head> 
+    <body>
+        <div id="Visual">
+            <img id="backround" src="Assets/Backrounds/Test.webp" alt ="Backround">
+            <img id="charecter" src="Assets/Sprites/TRC/Tracer-portrait.webp" alt="Charecter">
+            <div id="DialogueFrame">
+                <p id="charecter-name">Tracer</p>
+                <p id="Dialogue">Cheers love, this is placeholder text!</p>
+                <button id="CNT">Continue</button>
+            </div>
+            <div id="choices" class="hidden">
+                <button class="choice-btn" onclick="choose(1)">Option 1</button>
+                <button class="choice-btn" onclick="choose(2)">Option 2</button>
+                <button class="choice-btn" onclick="choose(3)">Option 3</button>
+            </div>      
+        </div>
+        <script src="Java/scripts.java"></script>
+    </body>
+    </html>

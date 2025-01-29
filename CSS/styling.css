@@ -1,0 +1,72 @@
+body {
+
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+#visual {
+
+    position: relative;
+    width: 800px; height: 800px;
+    margin: auto;
+    border: 3px #0f0f0f;
+
+}
+
+#backround {
+
+    width: 100%; height: 100%;
+    object-fit: cover;
+}
+
+#charecter {
+
+    position: absolute;
+    bottom: 0; left: 50%;
+    transform: translateX(-50%);
+    max-height: 80%;
+    scale: 200%;
+
+}
+
+#DialogueFrame {
+
+    background-color: rgba(59, 106, 180, 0.5);
+    border: 2px solid white; /* White border for definition */
+    border-radius: 10px; /* Rounded corners */
+    padding: 15px; /* Adds spacing inside the box */
+    width: 60%; /* Adjust width as needed */
+    max-width: 600px; /* Prevents it from getting too big */
+    position: absolute; /* Fixes placement */
+    bottom: 20px; /* Keeps it near the bottom */
+    left: 50%; /* Centers it */
+    transform: translateX(-50%); /* Corrects centering */
+    text-align: center; /* Centers text */
+}
+
+#Dialogue {
+
+    color: white;
+
+}
+
+#CNT {
+
+    background-color: rgba(255, 142, 142, 0.829);
+    border: 1.5px solid white;
+    border-radius: 30px;
+    color: white;
+    padding: 6px 12px;
+    margin: 5px 5px;
+    transition: all 0.2 ease-in-out;
+}
+
+#CNT:hover {
+
+    background-color: rgb(65, 65, 255);
+
+}
