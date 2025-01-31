@@ -1,6 +1,6 @@
 <!DOCTYPE html>
     <html lang="en">
-    <!--Head, critical info! DONT TOUCH!-->
+    <!--Head, critical info! DO NOT TOUCH!-->
     <head>
         <title>Made by Nexuss</title>
         <meta charset="UTF-8">
@@ -8,27 +8,38 @@
         <link rel="stylesheet" href="CSS/styling.css">
     </head> 
     <body>
+        <!--Title screen-->
         <div id="Main">
+            <!--Title banner-->
             <div class="Title-Cont">
-                <h1 id="TTEXT">OW_INTRN</h1>
+                <h1 id="TTEXT">Retray</h1>
                 <button id="startgame">startgame</button>
             </div>
             <img id="titleBG" src="Assets/Backrounds/Test.webp">
         </div>
+        <!--Visual elements-->
         <div id="Visual" class="hidden">
             <img id="backround" src="Assets/Backrounds/Test.webp" alt ="Backround">
             <img id="charecter" src="Assets/Sprites/TRC/Tracer-portrait.webp" alt="Charecter">
+            <!--Visual splash-->
+            <div id="VSSplash">
+                <img id="Splashimage" src="Assets/Backrounds/1920-x-1080.jpg"alt="ERR">
+                <p id="Splashtext">This is kings row, London. Ur lov lives here!</p>
+            </div>
+            <!--Dialogue output-->
             <div id="DialogueFrame">
-                <p id="charecter-name">Tracer</p>
+                <p id="Charectername">Tracer</p>
                 <p id="Dialogue">Cheers love, this is placeholder text!</p>
                 <button id="CNT">Continue</button>
             </div>
+            <!--Choices-->
             <div id="choices" class="hidden">
                 <button class="choice-btn" onclick="choose(1)">Option 1</button>
                 <button class="choice-btn" onclick="choose(2)">Option 2</button>
                 <button class="choice-btn" onclick="choose(3)">Option 3</button>
             </div>      
         </div>
+        <!--Loads Java code from Java/scripts.java-->
         <script src="Java/scripts.java"></script>
     </body>
     </html>
