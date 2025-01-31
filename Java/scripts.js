@@ -86,4 +86,3 @@ function loadDialogue(index) {
 continueButton.addEventListener("click", () => {
     loadDialogue(currentDialogueIndex + 1);
 });
->>>>>>>>> Temporary merge branch 2
